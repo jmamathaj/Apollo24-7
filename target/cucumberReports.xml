@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.246" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Appointment for Lab tests" name="Book Lab test appointment" time="0.011">
+<system-out><![CDATA[
+Given I want to login to apollo247..........................................passed
+When I enter mobile number as "9391548398"..................................passed
+And click on continue.......................................................passed
+And I enter otp.............................................................passed
+And click on verify otp.....................................................passed
+Then the login is successful................................................passed
+Given I am on the lab tests page............................................passed
+When I selectd a particular test it display all tests.......................passed
+And add test to cart........................................................passed
+And go to cart..............................................................passed
+And select the person.......................................................passed
+And confirm the appointment.................................................passed
+Then I should see a address.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Appointment for Lab tests" name="search lab test by category" time="0.002">
+<system-out><![CDATA[
+Given I want to login to apollo247..........................................passed
+When I enter mobile number as "9391548398"..................................passed
+And click on continue.......................................................passed
+And I enter otp.............................................................passed
+And click on verify otp.....................................................passed
+Then the login is successful................................................passed
+Given I am on the lab tests page............................................passed
+When I  click on search bar.................................................passed
+And I enter specific testname...............................................passed
+Then I should see relevant tests............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Appointment for Lab tests" name="View test details of lab test" time="0.002">
+<system-out><![CDATA[
+Given I want to login to apollo247..........................................passed
+When I enter mobile number as "9391548398"..................................passed
+And click on continue.......................................................passed
+And I enter otp.............................................................passed
+And click on verify otp.....................................................passed
+Then the login is successful................................................passed
+Given I am on the lab tests page............................................passed
+When I selectd a particular test it display all tests.......................passed
+And I click on spectific test for details...................................passed
+Then it should show detailed information about the test.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Appointment for Lab tests" name="selecting sort by visible values" time="0.001">
+<system-out><![CDATA[
+Given I want to login to apollo247..........................................passed
+When I enter mobile number as "9391548398"..................................passed
+And click on continue.......................................................passed
+And I enter otp.............................................................passed
+And click on verify otp.....................................................passed
+Then the login is successful................................................passed
+Given I am on the lab tests page............................................passed
+When I selectd a particular test it display all tests.......................passed
+And I click on sort by......................................................passed
+And I selectd sort value....................................................passed
+Then it should sort by selected value.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Appointment for Lab tests" name="select multiple tests - Example #1.1" time="0.001">
+<system-out><![CDATA[
+Given I want to login to apollo247..........................................passed
+When I enter mobile number as "9391548398"..................................passed
+And click on continue.......................................................passed
+And I enter otp.............................................................passed
+And click on verify otp.....................................................passed
+Then the login is successful................................................passed
+Given I am on the lab tests page............................................passed
+When I  click on search bar.................................................passed
+And I search for specific test as "pregnancy"...............................passed
+And add that test to cart...................................................passed
+Then adding tests is successful.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Appointment for Lab tests" name="select multiple tests - Example #1.2" time="0.002">
+<system-out><![CDATA[
+Given I want to login to apollo247..........................................passed
+When I enter mobile number as "9391548398"..................................passed
+And click on continue.......................................................passed
+And I enter otp.............................................................passed
+And click on verify otp.....................................................passed
+Then the login is successful................................................passed
+Given I am on the lab tests page............................................passed
+When I  click on search bar.................................................passed
+And I search for specific test as "Women"...................................passed
+And add that test to cart...................................................passed
+Then adding tests is successful.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
